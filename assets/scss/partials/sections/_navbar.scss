@@ -1,0 +1,10 @@
+#navbar{
+    background-color: $black;
+    padding: 20px 30px;
+    a{
+        text-decoration: none;
+        color: $white;
+        font-size: $font-size-nav;
+        letter-spacing: 2px;
+    }
+}

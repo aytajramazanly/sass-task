@@ -1,0 +1,19 @@
+.intro{
+    background-image: url(http://lukoan.com/tf/tej/assets/images/intro.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+   &__text{
+       p{
+           font-size: $base*15;
+           color: $white;
+           font-weight: 300;
+       }
+       span{
+           font-weight: 500;
+       }
+   }
+}

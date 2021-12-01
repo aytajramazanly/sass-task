@@ -1,0 +1,55 @@
+.contact{
+
+    &__headline{
+        @extend %title;
+    }
+    &__cards{
+        padding: 50px 0;
+    }
+    &__form{
+        background-color: $black;
+        padding: 30px;
+        gap: 15px;
+        textarea{
+            background-color: $black;
+            border: 0;
+            border-bottom: 1px solid $dark;
+            &:focus{
+                background-color: $black;
+                outline: none;
+            }
+        }
+        label{
+            color: $gray;
+            font-size: $font-size-text;
+        }
+
+        button{
+            @include btnss($width:180px);
+            border-color: white;
+            color: white;
+        }
+    }
+
+    &__details{
+        ul{
+            gap: 20px;
+        }
+        li {
+            gap: 20px;
+            p{
+                padding-top: 10px;
+                font-size: $font-size-text;
+            }
+        }
+        .icon i{
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        }
+    }

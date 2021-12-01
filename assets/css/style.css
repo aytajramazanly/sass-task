@@ -1,0 +1,382 @@
+.about-me__headline, .my-offer__headline, .my-portfolio__headline, .blog-posts__headline, .contact__headline {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 50px 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  color: #555555;
+}
+
+h1, h2, h3, h4 {
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+a {
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+#navbar {
+  background-color: #000000;
+  padding: 20px 30px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.intro {
+  background-image: url(http://lukoan.com/tf/tej/assets/images/intro.jpg);
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro__text p {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.intro__text span {
+  font-weight: 500;
+}
+
+.about-me {
+  padding: 50px 0;
+}
+
+.about-me__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me__description {
+  font-size: 14px;
+  width: 85%;
+  color: #555555;
+}
+
+.about-me__description--title {
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.about-me__btns button.hire-btn {
+  border-radius: 0;
+  font-size: 12px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  width: 100px;
+  height: 45px;
+  text-transform: uppercase;
+}
+
+.about-me__btns button.cv-btn {
+  border-radius: 0;
+  font-size: 12px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  width: 140px;
+  height: 45px;
+  text-transform: uppercase;
+}
+
+.my-offer__headline {
+  padding-top: 50px;
+}
+
+.my-offer__cards {
+  padding: 90px 0;
+  gap: 30px;
+}
+
+.my-offer__cards--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.my-offer__cards--card i {
+  color: #555555;
+  font-size: 52px;
+}
+
+.my-offer__cards--card p {
+  color: #555555;
+  font-size: 14px;
+}
+
+.my-offer__cards--card h3 {
+  color: #000000;
+  font-size: 16px;
+}
+
+.my-offer__cards--card i {
+  font-size: 52px;
+}
+
+.my-offer__cards--card h3 {
+  font-size: 16px;
+}
+
+.my-offer__success {
+  background-color: #000000;
+  gap: 30px;
+  padding: 80px 0;
+}
+
+.my-offer__success--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.my-offer__success--card i {
+  color: white;
+  font-size: 52px;
+}
+
+.my-offer__success--card p {
+  color: white;
+  font-size: 16px;
+}
+
+.my-offer__success--card h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.my-offer__success--card p {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.my-offer__success--card i {
+  font-size: 24px;
+}
+
+.my-portfolio {
+  padding: 50px 0;
+}
+
+.my-portfolio__headline {
+  padding-top: 50px;
+}
+
+.my-portfolio__filters {
+  letter-spacing: 2px;
+  padding: 50px 0;
+}
+
+.my-portfolio__filters li {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.my-portfolio__items button {
+  border-radius: 0;
+  font-size: 12px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  width: 140px;
+  height: 45px;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+
+.my-portfolio__items--item {
+  padding: 0;
+  position: relative;
+}
+
+.my-portfolio__items--item a {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
+}
+
+.my-portfolio__items--item img {
+  width: 100%;
+}
+
+.my-portfolio__items--item:hover a {
+  visibility: visible;
+  opacity: 0.7;
+  background-color: #333333;
+}
+
+.blog-posts__cards {
+  padding: 40px;
+}
+
+.blog-posts__cards--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.blog-posts__cards--card img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.blog-posts__cards--card a {
+  position: absolute;
+  top: 76%;
+  background-color: #000000;
+  opacity: 0;
+  width: 94.5%;
+  padding: 32px 10px;
+  text-align: center;
+  color: white;
+  -webkit-transition: 0.8s ease-in;
+  transition: 0.8s ease-in;
+}
+
+.blog-posts__cards--card a h4 {
+  color: #ffffff;
+}
+
+.blog-posts__cards--card:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.blog-posts__cards--card:hover a {
+  opacity: 0.6;
+}
+
+.contact__cards {
+  padding: 50px 0;
+}
+
+.contact__form {
+  background-color: #000000;
+  padding: 30px;
+  gap: 15px;
+}
+
+.contact__form textarea {
+  background-color: #000000;
+  border: 0;
+  border-bottom: 1px solid #333333;
+}
+
+.contact__form textarea:focus {
+  background-color: #000000;
+  outline: none;
+}
+
+.contact__form label {
+  color: #555555;
+  font-size: 14px;
+}
+
+.contact__form button {
+  border-radius: 0;
+  font-size: 12px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  width: 180px;
+  height: 45px;
+  text-transform: uppercase;
+  border-color: white;
+  color: white;
+}
+
+.contact__details ul {
+  gap: 20px;
+}
+
+.contact__details li {
+  gap: 20px;
+}
+
+.contact__details li p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.contact__details .icon i {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}

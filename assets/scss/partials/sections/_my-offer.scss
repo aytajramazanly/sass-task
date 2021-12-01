@@ -1,0 +1,36 @@
+.my-offer{
+
+    &__headline{
+        @extend %title;
+        padding-top: 50px;
+    }
+    &__cards{
+        padding: 90px 0;
+        gap: 30px;
+    }
+    &__cards--card{
+        @include cards($color: $gray, $title-color: $black);
+        i{
+            font-size: $base*13;
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
+    &__success{
+        background-color: $black;
+        gap: 30px;
+        padding: 80px 0;
+    }
+
+    &__success--card{
+        @include cards($title-font-size:40px, $p-font-size:16px);
+        p{
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        i{
+            font-size: $base*6;
+        }
+    }
+}

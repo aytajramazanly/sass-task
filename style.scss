@@ -1,0 +1,10 @@
+@import "./assets/scss/partials/variables";
+@import "./assets/scss/partials/mixins";
+@import "./assets/scss/partials/extends";
+@import "./assets/scss/partials/main";
+@import "./assets/scss/partials/sections/index";
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+    line-height: 24px;
+}
